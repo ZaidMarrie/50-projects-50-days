@@ -1,0 +1,56 @@
+# 50 Projects in 50 Days
+
+This repository contains all the mini-projects I build using HTML, CSS & JavaScript, over the course of 50 days; Projects are from Brad Traversy's [50 Projects In 50 Days Course](https://www.udemy.com/course/50-projects-50-days/) on Udemy.
+
+The list of mini-projects are:
+Expanding Cards
+
+- [Progress Steps](https://codepen.io/LeKoels27/pen/ExEoxMP)
+- Rotating Navigation Animation
+- Hidden Search Widget
+- Blurry Loading
+- Scroll Animation
+- Split Landing Page
+- Form Wave
+- Sound Board
+- Dad Jokes
+- Event Keycodes
+- Faq Collapse
+- Random Choice Picker
+- Animated Navigation
+- Incrementing Counter
+- Drink Water
+- Movie App
+- Background Slider
+- Theme Clock
+- Button Ripple Effect
+- Drag N Drop
+- Drawing App
+- Kinetic Loader
+- Content Placeholder
+- Sticky Navbar
+- Double Vertical Slider
+- Toast Notification
+- Github Profiles
+- Double Click Heart
+- Auto Text Effect
+- Password Generator
+- Good Cheap Fast
+- Notes App
+- Animated Countdown
+- Image Carousel
+- Hoverboard
+- Pokedex
+- Mobile Tab Navigation
+- Password Strength Background
+- 3d Background Boxes
+- Verify Account UI
+- Live User Filter
+- Feedback UI Design
+- Custom Range Slider
+- Netflix Mobile Navigation
+- Quiz App
+- Testimonial Box Switcher
+- Random Image Feed
+- Todo List
+- Insect Catch Game
