@@ -3,10 +3,10 @@
 This repository contains all the mini-projects I build using HTML, CSS & JavaScript, over the course of 50 days; Projects are from Brad Traversy's [50 Projects In 50 Days Course](https://www.udemy.com/course/50-projects-50-days/) on Udemy.
 
 The list of mini-projects are:
-Expanding Cards
 
+- [Expanding Cards](https://codepen.io/LeKoels27/pen/ExEoxMP)
 - [Progress Steps](https://codepen.io/LeKoels27/pen/ExEoxMP)
-- Rotating Navigation Animation
+- [Rotating Navigation Animation](https://codepen.io/LeKoels27/pen/gOeoNmg)
 - Hidden Search Widget
 - Blurry Loading
 - Scroll Animation
