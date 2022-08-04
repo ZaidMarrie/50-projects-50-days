@@ -8,7 +8,7 @@ The list of mini-projects are:
 - [Progress Steps](https://codepen.io/LeKoels27/pen/ExEoxMP)
 - [Rotating Navigation Animation](https://codepen.io/LeKoels27/pen/gOeoNmg)
 - [Hidden Search Widget](https://codepen.io/LeKoels27/pen/eYMVaXe)
-- Blurry Loading
+- [Blurry Loading](https://codepen.io/LeKoels27/pen/QWmmBgv)
 - Scroll Animation
 - Split Landing Page
 - Form Wave
