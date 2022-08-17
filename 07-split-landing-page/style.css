@@ -1,3 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+	--clr-ps: 241 80% 53%;
+	--clr-overlay-dark: 0 0% 17%;
+	--clr-body: 0 0% 100%;
+	--clr-btn-xbox: 120 63% 29%;
+	--active-width: 75%;
+	--inactive-width: 25%;
+
+	/* Transition Properties */
+	--duration: 1000ms;
+	--easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Resets */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 body {
+	font-family: "Raleway", sans-serif;
 	margin: 0;
+	min-height: 100vh;
+	overflow: hidden;
+	color: hsl(var(--clr-body));
+}
+
+.container {
+	background-color: hsl(0, 0%, 20%);
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+h2,
+.btn,
+.split,
+.split::before {
+	position: absolute;
+}
+
+.split {
+	width: 50%;
+	height: 100vh;
+	overflow: hidden;
+	background-size: cover;
+	transition: all var(--duration) var(--easing);
+}
+
+.split.left {
+	left: 0;
+	background-image: url("https://github.com/bradtraversy/50projects50days/raw/master/split-landing-page/ps.jpg");
+}
+.split.right {
+	right: 0;
+	background-image: url("https://github.com/bradtraversy/50projects50days/raw/master/split-landing-page/xbox.jpg");
+}
+
+.split::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	inset: 0;
+}
+
+.split.left::before {
+	background-color: hsl(var(--clr-ps) / 0.7);
+}
+
+.split.right::before {
+	background-color: hsl(var(--clr-overlay-dark) / 0.8);
+}
+
+.split h2,
+.btn {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.split h2 {
+	top: 20%;
+	font-size: 3rem;
+	white-space: nowrap;
+}
+
+.btn {
+	color: inherit;
+	font: inherit;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.7rem 1.5rem;
+	border: 2px solid hsl(var(--clr-body));
+	top: 38%;
+}
+
+.btn--ps:hover {
+	background-color: hsl(var(--clr-ps));
+	border-color: hsl(var(--clr-ps));
+}
+
+.btn--xbox:hover {
+	background-color: hsl(var(--clr-btn-xbox));
+	border-color: hsl(var(--clr-btn-xbox));
+}
+
+/* When each side of the split is hovered */
+.split.active {
+	width: var(--active-width);
+}
+
+.split.active ~ .split {
+	width: var(--inactive-width);
+}
+
+@media (max-width: 800px) {
+	.split h2 {
+		font-size: revert;
+	}
+
+	.btn {
+		top: 32%;
+		padding: 0.25rem 0.7rem;
+	}
 }
