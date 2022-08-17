@@ -8,9 +8,9 @@ The list of mini-projects are:
 - [Progress Steps](https://codepen.io/LeKoels27/pen/ExEoxMP)
 - [Rotating Navigation Animation](https://codepen.io/LeKoels27/pen/gOeoNmg)
 - [Hidden Search Widget](https://codepen.io/LeKoels27/pen/eYMVaXe)
-- [Blurry Loading](https://codepen.io/LeKoels27/pen/QWmmBgv)
+- [Blurry Loading](https://codepen.io/LeKoels27/pen/gOeQVad)
 - [Scroll Animation](https://codepen.io/LeKoels27/pen/NWYMxZe)
-- Split Landing Page
+- [Split Landing Page](https://codepen.io/LeKoels27/pen/RwMqzVp)
 - Form Wave
 - Sound Board
 - Dad Jokes
