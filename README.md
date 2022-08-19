@@ -11,7 +11,7 @@ The list of mini-projects are:
 - [Blurry Loading](https://codepen.io/LeKoels27/pen/gOeQVad)
 - [Scroll Animation](https://codepen.io/LeKoels27/pen/NWYMxZe)
 - [Split Landing Page](https://codepen.io/LeKoels27/pen/RwMqzVp)
-- Form Wave
+- [Form Input Wave](https://codepen.io/LeKoels27/pen/jOzdyxK)
 - Sound Board
 - Dad Jokes
 - Event Keycodes
