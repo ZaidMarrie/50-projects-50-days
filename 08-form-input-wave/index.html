@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Input Wave</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title">Please Login</h1>
+			<form class="form">
+				<div class="form__group">
+					<input
+						type="email"
+						name="email"
+						id="email"
+						class="form__input"
+						required
+						autocomplete="off"
+					/>
+					<label for="email" class="form__label">Email</label>
+				</div>
+
+				<div class="form__group">
+					<input
+						type="password"
+						name="password"
+						id="password"
+						class="form__input"
+						required
+					/>
+					<label for="password" class="form__label">Password</label>
+				</div>
+				<button type="submit" class="btn">Login</button>
+			</form>
+			<p class="text">Don't have an account? <a href="#">Register</a></p>
+		</div>
+	</body>
+</html>
