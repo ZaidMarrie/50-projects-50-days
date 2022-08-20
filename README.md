@@ -12,7 +12,7 @@ The list of mini-projects are:
 - [Scroll Animation](https://codepen.io/LeKoels27/pen/NWYMxZe)
 - [Split Landing Page](https://codepen.io/LeKoels27/pen/RwMqzVp)
 - [Form Input Wave](https://codepen.io/LeKoels27/pen/jOzdyxK)
-- Sound Board
+- [Sound Board](https://codepen.io/LeKoels27/pen/zYWemrz)
 - Dad Jokes
 - Event Keycodes
 - Faq Collapse
