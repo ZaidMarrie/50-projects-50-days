@@ -13,7 +13,7 @@ The list of mini-projects are:
 - [Split Landing Page](https://codepen.io/LeKoels27/pen/RwMqzVp)
 - [Form Input Wave](https://codepen.io/LeKoels27/pen/jOzdyxK)
 - [Sound Board](https://codepen.io/LeKoels27/pen/zYWemrz)
-- Dad Jokes
+- [Dad Jokes](https://codepen.io/LeKoels27/pen/ZExwdjm)
 - Event Keycodes
 - Faq Collapse
 - Random Choice Picker
