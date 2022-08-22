@@ -14,7 +14,7 @@ The list of mini-projects are:
 - [Form Input Wave](https://codepen.io/LeKoels27/pen/jOzdyxK)
 - [Sound Board](https://codepen.io/LeKoels27/pen/zYWemrz)
 - [Dad Jokes](https://codepen.io/LeKoels27/pen/ZExwdjm)
-- Event Keycodes
+- [Event Keycodes](https://codepen.io/LeKoels27/pen/VwXRyvj)
 - Faq Collapse
 - Random Choice Picker
 - Animated Navigation
