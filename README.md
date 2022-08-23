@@ -15,7 +15,7 @@ The list of mini-projects are:
 - [Sound Board](https://codepen.io/LeKoels27/pen/zYWemrz)
 - [Dad Jokes](https://codepen.io/LeKoels27/pen/ZExwdjm)
 - [Event Keycodes](https://codepen.io/LeKoels27/pen/VwXRyvj)
-- Faq Collapse
+- [Faq Collapse](https://codepen.io/LeKoels27/pen/GRxeVex)
 - Random Choice Picker
 - Animated Navigation
 - Incrementing Counter
