@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+
+/* Resets */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+	margin: 0;
+	padding-bottom: 2rem;
+	min-height: 100vh;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	text-align: center;
+	margin: 3.125rem 0 1.875rem;
+}
+
+.faq {
+	width: min(100% - 2rem, 37.5rem);
+	margin-inline: auto;
+}
+
+.faq__item {
+	--padding-size: 1.25rem;
+	padding: var(--padding-size);
+	border-radius: 0.45em;
+	background-color: transparent;
+	box-shadow: 1px 1px 5px hsl(0 0% 0% / 0.1), 3px 3px 8px hsl(0 0% 0% / 0.1);
+	position: relative;
+	overflow: hidden;
+}
+
+.faq__item > * {
+	margin: 0;
+}
+
+.faq__item + .faq__item {
+	margin-top: 1.25rem;
+}
+
+.faq__item.active {
+	background-color: #ffffff;
+}
+
+.faq__item.active::before,
+.faq__item.active::after {
+	content: "\f075";
+	font-family: "Font Awesome 6 Free";
+	color: #2ecc71;
+	font-size: 6rem;
+	opacity: 0.2;
+	position: absolute;
+	top: var(--padding-size);
+	left: var(--padding-size);
+	z-index: 0;
+}
+
+.faq__item.active::before {
+	--padding-size: -1.25rem;
+	color: #3498db;
+	transform: rotateY(180deg);
+}
+
+.faq__title {
+	font-size: 1.35rem;
+	line-height: 1;
+	margin-right: calc(var(--padding-size) + 16px);
+}
+
+.faq__panel {
+	margin-top: 1.5rem;
+	display: none;
+}
+
+.faq__item.active .faq__panel {
+	display: block;
+}
+
+.faq__trigger {
+	cursor: pointer;
+	font-size: inherit;
+	width: 1.5rem;
+	aspect-ratio: 1 / 1;
+	border: none;
+	border-radius: 50%;
+	background-color: transparent;
+	display: grid;
+	place-items: center;
+	position: absolute;
+	top: var(--padding-size);
+	right: var(--padding-size);
+}
+
+.faq__trigger:focus {
+	outline: none;
+}
+
+.faq__item.active .faq__trigger {
+	background-color: #9fa4a8;
+}
+
+.faq__trigger .fa-times {
+	display: none;
+}
+.faq__item.active .faq__trigger .fa-times {
+	display: block;
+}
+
+.faq__item.active .faq__trigger .fa-chevron-down {
+	display: none;
+}
