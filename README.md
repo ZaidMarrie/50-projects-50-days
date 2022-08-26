@@ -16,7 +16,7 @@ The list of mini-projects are:
 - [Dad Jokes](https://codepen.io/LeKoels27/pen/ZExwdjm)
 - [Event Keycodes](https://codepen.io/LeKoels27/pen/VwXRyvj)
 - [Faq Collapse](https://codepen.io/LeKoels27/pen/GRxeVex)
-- Random Choice Picker
+- [Random Choice Picker](https://codepen.io/LeKoels27/pen/RwMOJrQ)
 - Animated Navigation
 - Incrementing Counter
 - Drink Water
