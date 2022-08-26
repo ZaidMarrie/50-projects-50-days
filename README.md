@@ -17,7 +17,7 @@ The list of mini-projects are:
 - [Event Keycodes](https://codepen.io/LeKoels27/pen/VwXRyvj)
 - [Faq Collapse](https://codepen.io/LeKoels27/pen/GRxeVex)
 - [Random Choice Picker](https://codepen.io/LeKoels27/pen/RwMOJrQ)
-- Animated Navigation
+- [Animated Navigation](https://codepen.io/LeKoels27/pen/poLmZMW)
 - Incrementing Counter
 - Drink Water
 - Movie App
