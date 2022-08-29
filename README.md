@@ -18,7 +18,7 @@ The list of mini-projects are:
 - [Faq Collapse](https://codepen.io/LeKoels27/pen/GRxeVex)
 - [Random Choice Picker](https://codepen.io/LeKoels27/pen/RwMOJrQ)
 - [Animated Navigation](https://codepen.io/LeKoels27/pen/poLmZMW)
-- Incrementing Counter
+- [Incrementing Counter](https://codepen.io/LeKoels27/pen/yLKdrXP)
 - Drink Water
 - Movie App
 - Background Slider
