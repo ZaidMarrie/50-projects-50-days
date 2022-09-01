@@ -19,7 +19,7 @@ The list of mini-projects are:
 - [Random Choice Picker](https://codepen.io/LeKoels27/pen/RwMOJrQ)
 - [Animated Navigation](https://codepen.io/LeKoels27/pen/poLmZMW)
 - [Incrementing Counter](https://codepen.io/LeKoels27/pen/yLKdrXP)
-- Drink Water
+- [Drink Water](https://codepen.io/LeKoels27/pen/oNdvzQV)
 - Movie App
 - Background Slider
 - Theme Clock
