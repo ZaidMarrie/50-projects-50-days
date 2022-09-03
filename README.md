@@ -20,7 +20,7 @@ The list of mini-projects are:
 - [Animated Navigation](https://codepen.io/LeKoels27/pen/poLmZMW)
 - [Incrementing Counter](https://codepen.io/LeKoels27/pen/yLKdrXP)
 - [Drink Water](https://codepen.io/LeKoels27/pen/oNdvzQV)
-- Movie App
+- [Movie App](https://codepen.io/LeKoels27/pen/abGbJWL)
 - Background Slider
 - Theme Clock
 - Button Ripple Effect
