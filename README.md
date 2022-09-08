@@ -21,36 +21,36 @@ The list of mini-projects are:
 - [Incrementing Counter](https://codepen.io/LeKoels27/pen/yLKdrXP)
 - [Drink Water](https://codepen.io/LeKoels27/pen/oNdvzQV)
 - [Movie App](https://codepen.io/LeKoels27/pen/abGbJWL)
-- Background Slider
-- Theme Clock
-- Button Ripple Effect
-- Drag N Drop
-- Drawing App
-- Kinetic Loader
-- Content Placeholder
-- Sticky Navbar
-- Double Vertical Slider
-- Toast Notification
-- Github Profiles
-- Double Click Heart
-- Auto Text Effect
-- Password Generator
-- Good Cheap Fast
-- Notes App
-- Animated Countdown
-- Image Carousel
-- Hoverboard
-- Pokedex
-- Mobile Tab Navigation
-- Password Strength Background
-- 3d Background Boxes
-- Verify Account UI
-- Live User Filter
-- Feedback UI Design
-- Custom Range Slider
-- Netflix Mobile Navigation
-- Quiz App
-- Testimonial Box Switcher
-- Random Image Feed
-- Todo List
-- Insect Catch Game
+- [Background Slider](https://codepen.io/LeKoels27/pen/poVvaJN)
+- [Theme Clock]()
+- [Button Ripple Effect]()
+- [Drag N Drop]()
+- [Drawing App]()
+- [Kinetic Loader]()
+- [Content Placeholder]()
+- [Sticky Navbar]()
+- [Double Vertical Slider]()
+- [Toast Notification]()
+- [Github Profiles]()
+- [Double Click Heart]()
+- [Auto Text Effect]()
+- [Password Generator]()
+- [Good Cheap Fast]()
+- [Notes App]()
+- [Animated Countdown]()
+- [Image Carousel]()
+- [Hoverboard]()
+- [Pokedex]()
+- [Mobile Tab Navigation]()
+- [Password Strength Background]()
+- [3d Background Boxes]()
+- [Verify Account UI]()
+- [Live User Filter]()
+- [Feedback UI Design]()
+- [Custom Range Slider]()
+- [Netflix Mobile Navigation]()
+- [Quiz App]()
+- [Testimonial Box Switcher]()
+- [Random Image Feed]()
+- [Todo List]()
+- [Insect Catch Game]()
