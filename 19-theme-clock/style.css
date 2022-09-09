@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;&display=swap");
+
+:root {
+	--clr-accent: #ff0000;
+	--clr-dark: #474554;
+	--clr-light: #faf7ff;
+	--clr-primary: var(--clr-dark);
+	--clr-secondary: var(--clr-light);
+	--clr-clock-bg: #cccccc;
+	--primary-color: #43655a;
+	--secondary-color: #fff;
+	--clr-needle: #313131;
+
+	--bs: inset -1px -2px 5px hsl(0 0% 0% / 0.1), inset 0 -3px 7px hsl(0 0% 0% / 0.08);
+	--theme-transition: background-color 350ms ease-in-out, color 350ms ease-in-out;
+}
+
+/* Resets */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+}
+
+body {
+	font-family: "Heebo", sans-serif;
+	color: var(--clr-primary);
+	height: 100vh;
+	padding-top: 8rem;
+	background-color: var(--clr-secondary);
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+	transition: var(--theme-transition);
+}
+
+body.dark {
+	--clr-primary: var(--clr-light);
+	--clr-secondary: var(--clr-dark);
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	display: inline-block;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Utility Classes */
+.container {
+	width: min(100% - 2rem, 30rem);
+	margin-inline: auto;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+	font-weight: 600;
+	text-transform: capitalize;
+	color: var(--clr-secondary);
+	min-width: 7.5rem;
+	padding: 0.75em 1em;
+	border: none;
+	border-radius: 0.2em;
+	background-color: var(--clr-primary);
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: var(--theme-transition);
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+	opacity: 0.85;
+}
+
+.theme-toggle:active {
+	transform: translateX(-50%) scale(0.98);
+}
+
+/* Clock */
+.clock-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.clock,
+.clock__center,
+.clock__center::before {
+	aspect-ratio: 1;
+	border-radius: 50%;
+}
+
+.clock {
+	width: 15rem;
+	margin-inline: auto;
+	background-color: #ccc;
+	box-shadow: var(--bs);
+	position: relative;
+	isolation: isolate;
+}
+
+.needle {
+	width: 4px;
+	height: 45%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: var(--clr-needle);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate: -50% -100%;
+	transform-origin: bottom center;
+	transition: rotate 500ms linear;
+}
+
+.needle--hours {
+	height: 30%;
+}
+
+.needle--minutes {
+	width: 3px;
+	height: 42%;
+}
+
+.needle--seconds {
+	width: 2px;
+	background-color: var(--clr-accent);
+	z-index: 2;
+}
+
+.clock__center,
+.clock__center::before {
+	box-shadow: 0 1px 5px hsl(0 0% 0% / 0.3);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+
+.clock__center {
+	width: 0.75rem;
+	background-color: var(--clr-accent);
+	z-index: 5;
+}
+
+.clock__center::before {
+	content: "";
+	width: 0.5rem;
+	background-color: black;
+}
+
+/* Time & Date Text */
+.time {
+	font-size: 3rem;
+}
+
+.date {
+	font-size: 0.75rem;
+}
