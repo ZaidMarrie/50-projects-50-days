@@ -22,7 +22,7 @@ The list of mini-projects are:
 - [Drink Water](https://codepen.io/LeKoels27/pen/oNdvzQV)
 - [Movie App](https://codepen.io/LeKoels27/pen/abGbJWL)
 - [Background Slider](https://codepen.io/LeKoels27/pen/poVvaJN)
-- [Theme Clock]()
+- [Theme Clock](https://codepen.io/LeKoels27/pen/MWGyeEo)
 - [Button Ripple Effect]()
 - [Drag N Drop]()
 - [Drawing App]()
