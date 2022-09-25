@@ -26,7 +26,7 @@ The list of mini-projects are:
 - [Button Ripple Effect](https://codepen.io/LeKoels27/pen/BaxzQvG)
 - [Drag N Drop](https://codepen.io/LeKoels27/pen/LYmZKxO)
 - [Drawing App](https://codepen.io/LeKoels27/pen/jOxwwqw)
-- [Kinetic Loader]()
+- [Kinetic Loader](https://codepen.io/LeKoels27/pen/wvjPopE)
 - [Content Placeholder]()
 - [Sticky Navbar]()
 - [Double Vertical Slider]()
