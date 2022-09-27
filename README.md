@@ -28,7 +28,7 @@ The list of mini-projects are:
 - [Drawing App](https://codepen.io/LeKoels27/pen/jOxwwqw)
 - [Kinetic Loader](https://codepen.io/LeKoels27/pen/wvjPopE)
 - [Content Placeholder](https://codepen.io/LeKoels27/pen/RwyjOwz)
-- [Sticky Navbar]()
+- [Sticky Navbar](https://codepen.io/LeKoels27/pen/eYryGxO)
 - [Double Vertical Slider]()
 - [Toast Notification]()
 - [Github Profiles]()
