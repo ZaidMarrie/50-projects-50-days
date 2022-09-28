@@ -29,7 +29,7 @@ The list of mini-projects are:
 - [Kinetic Loader](https://codepen.io/LeKoels27/pen/wvjPopE)
 - [Content Placeholder](https://codepen.io/LeKoels27/pen/RwyjOwz)
 - [Sticky Navbar](https://codepen.io/LeKoels27/pen/eYryGxO)
-- [Double Vertical Slider]()
+- [Double Vertical Slider](https://codepen.io/LeKoels27/pen/NWMypMR)
 - [Toast Notification]()
 - [Github Profiles]()
 - [Double Click Heart]()
