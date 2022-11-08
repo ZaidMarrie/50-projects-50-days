@@ -31,7 +31,7 @@ The list of mini-projects are:
 - [Sticky Navbar](https://codepen.io/LeKoels27/pen/eYryGxO)
 - [Double Vertical Slider](https://codepen.io/LeKoels27/pen/NWMypMR)
 - [Toast Notification](https://codepen.io/LeKoels27/pen/gOzdZZo)
-- [Github Profiles]()
+- [Github Profiles](https://codepen.io/LeKoels27/pen/gOKLEBb)
 - [Double Click Heart]()
 - [Auto Text Effect]()
 - [Password Generator]()
