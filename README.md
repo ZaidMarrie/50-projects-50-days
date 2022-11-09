@@ -32,7 +32,7 @@ The list of mini-projects are:
 - [Double Vertical Slider](https://codepen.io/LeKoels27/pen/NWMypMR)
 - [Toast Notification](https://codepen.io/LeKoels27/pen/gOzdZZo)
 - [Github Profiles](https://codepen.io/LeKoels27/pen/gOKLEBb)
-- [Double Click Heart]()
+- [Double Click Heart](https://codepen.io/LeKoels27/pen/poKRPXv)
 - [Auto Text Effect]()
 - [Password Generator]()
 - [Good Cheap Fast]()
