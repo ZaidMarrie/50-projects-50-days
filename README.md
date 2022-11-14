@@ -33,7 +33,7 @@ The list of mini-projects are:
 - [Toast Notification](https://codepen.io/LeKoels27/pen/gOzdZZo)
 - [Github Profiles](https://codepen.io/LeKoels27/pen/gOKLEBb)
 - [Double Click Heart](https://codepen.io/LeKoels27/pen/poKRPXv)
-- [Auto Text Effect]()
+- [Auto Text Effect](https://codepen.io/LeKoels27/pen/ZERyrWx)
 - [Password Generator]()
 - [Good Cheap Fast]()
 - [Notes App]()
