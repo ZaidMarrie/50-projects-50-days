@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Oswald", sans-serif;
+	min-height: 100vh;
+	background-color: darksalmon;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+}
+
+input {
+	font: inherit;
+}
+
+.input-wrapper {
+	font-size: 1.125rem;
+	padding: 0.5rem 1rem;
+	background-color: hsl(0 0% 0% / 0.1);
+	position: absolute;
+	bottom: 2rem;
+}
+
+.input-wrapper input {
+	width: 50px;
+	border: none;
+	padding: 0.125rem;
+	background-color: darksalmon;
+}
