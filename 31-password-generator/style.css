@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+	color: #ffffff;
+	min-height: 100vh;
+	background-color: #3b3b98;
+	overflow: hidden;
+	display: flex;
+	gap: 2rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+}
+
+input,
+button {
+	font: inherit;
+	color: inherit;
+	border: none;
+}
+
+button {
+	cursor: pointer;
+	background-color: #3b3b98;
+	display: inline-block;
+}
+
+.container {
+	width: min(100% - 2rem, 22rem);
+	padding: 1.25rem;
+	background-color: #23235b;
+	box-shadow: 0 2px 10px hsl(0 100% 100% / 0.1);
+}
+
+.result-container {
+	font-size: 1.125rem;
+	letter-spacing: 1px;
+	padding: 0.75rem 0.625rem;
+	background-color: hsl(0 0% 0% / 0.4);
+	display: flex;
+	align-items: center;
+}
+
+.result-container #result {
+	word-wrap: break-word;
+	width: calc(100% - 2.5rem);
+}
+
+.btn-clipboard {
+	padding: 0.5rem 0.75rem;
+	background-color: #3b3b98;
+}
+
+.btn-large {
+	width: 100%;
+	margin-top: 1.25rem;
+	padding: 0.5rem 1rem;
+}
+
+.settings {
+	margin-top: 1.25rem;
+}
+
+.setting {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.setting + .setting {
+	margin-top: 0.35rem;
+}
+
+input#length {
+	width: 4rem;
+	background-color: hsl(0 0% 0% / 0.4);
+}
