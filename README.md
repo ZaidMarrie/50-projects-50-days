@@ -35,7 +35,7 @@ The list of mini-projects are:
 - [Double Click Heart](https://codepen.io/LeKoels27/pen/poKRPXv)
 - [Auto Text Effect](https://codepen.io/LeKoels27/pen/ZERyrWx)
 - [Password Generator](https://codepen.io/LeKoels27/pen/PoaKZxM)
-- [Good Cheap Fast]()
+- [Good Cheap Fast](https://codepen.io/LeKoels27/pen/XWYeXoR)
 - [Notes App]()
 - [Animated Countdown]()
 - [Image Carousel]()
