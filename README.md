@@ -36,7 +36,7 @@ The list of mini-projects are:
 - [Auto Text Effect](https://codepen.io/LeKoels27/pen/ZERyrWx)
 - [Password Generator](https://codepen.io/LeKoels27/pen/PoaKZxM)
 - [Good Cheap Fast](https://codepen.io/LeKoels27/pen/XWYeXoR)
-- [Notes App]()
+- [Notes App](https://codepen.io/LeKoels27/pen/VwdMBXa)
 - [Animated Countdown]()
 - [Image Carousel]()
 - [Hoverboard]()
