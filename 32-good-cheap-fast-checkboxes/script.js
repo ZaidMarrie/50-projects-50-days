@@ -13,15 +13,15 @@ toggleCheckboxes.forEach((checkbox) => {
 function toggleOneOff(toggledElement) {
 	if (goodToggleSwitch.checked && cheapToggleSwitch.checked && fastToggleSwitch.checked) {
 		if (goodToggleSwitch === toggledElement) {
-			cheapToggleSwitch.checked = false;
+			fastToggleSwitch.checked = false;
 		}
 
 		if (fastToggleSwitch === toggledElement) {
-			goodToggleSwitch.checked = false;
+			cheapToggleSwitch.checked = false;
 		}
 
 		if (cheapToggleSwitch === toggledElement) {
-			fastToggleSwitch.checked = false;
+			goodToggleSwitch.checked = false;
 		}
 	}
 }
