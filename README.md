@@ -37,7 +37,7 @@ The list of mini-projects are:
 - [Password Generator](https://codepen.io/LeKoels27/pen/PoaKZxM)
 - [Good Cheap Fast](https://codepen.io/LeKoels27/pen/XWYeXoR)
 - [Notes App](https://codepen.io/LeKoels27/pen/VwdMBXa)
-- [Animated Countdown]()
+- [Animated Countdown](https://codepen.io/LeKoels27/pen/eYKeWyR)
 - [Image Carousel]()
 - [Hoverboard]()
 - [Pokedex]()
