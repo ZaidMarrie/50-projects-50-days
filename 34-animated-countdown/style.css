@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	min-height: 100vh;
+}
+
+h4 {
+	font-size: 1.25rem;
+	text-transform: uppercase;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	margin-top: 0.7em;
+	padding: 0.5rem 1rem;
+	background-color: #3498db;
+}
+
+.counter,
+.final {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+.counter {
+	transform: translate(-50%, -50%);
+	transition: transform 200ms ease-out;
+}
+
+.counter.hide {
+	transform: translate(-50%, -50%) scale(0);
+}
+
+.final {
+	transform: translate(-50%, -50%) scale(0);
+}
+
+.final.show {
+	animation: scaleIn 200ms ease-in-out forwards;
+}
+
+.nums {
+	font-size: 3rem;
+	color: #3498db;
+	width: 200px;
+	height: 50px;
+	position: relative;
+	overflow: hidden;
+}
+
+.nums span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-origin: bottom center;
+	transform: translate(-50%, -50%) rotate(120deg);
+}
+
+.nums span.in {
+	animation: rotateIn 500ms ease-in-out forwards;
+}
+
+.nums span.out {
+	animation: rotateOut 250ms ease-in-out forwards;
+}
+
+@keyframes scaleIn {
+	0% {
+		transform: translate(-50%, -50%) scale(0);
+	}
+	30% {
+		transform: translate(-50%, -50%) scale(1.2);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+@keyframes rotateIn {
+	40% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	60% {
+		transform: translate(-50%, -50%) rotate(20deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+}
+
+@keyframes rotateOut {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(-120deg);
+	}
+}
