@@ -38,7 +38,7 @@ The list of mini-projects are:
 - [Good Cheap Fast](https://codepen.io/LeKoels27/pen/XWYeXoR)
 - [Notes App](https://codepen.io/LeKoels27/pen/VwdMBXa)
 - [Animated Countdown](https://codepen.io/LeKoels27/pen/eYKeWyR)
-- [Image Carousel]()
+- [Image Carousel](https://codepen.io/LeKoels27/pen/MWXrLpa)
 - [Hoverboard]()
 - [Pokedex]()
 - [Mobile Tab Navigation]()
