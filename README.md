@@ -39,7 +39,7 @@ The list of mini-projects are:
 - [Notes App](https://codepen.io/LeKoels27/pen/VwdMBXa)
 - [Animated Countdown](https://codepen.io/LeKoels27/pen/eYKeWyR)
 - [Image Carousel](https://codepen.io/LeKoels27/pen/MWXrLpa)
-- [Hoverboard]()
+- [Hoverboard](https://codepen.io/LeKoels27/pen/BaVYrYo)
 - [Pokedex]()
 - [Mobile Tab Navigation]()
 - [Password Strength Background]()
