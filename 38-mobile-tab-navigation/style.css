@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	background-color: hsl(283 39% 53% / 0.7);
+	display: grid;
+	place-items: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.phone {
+	width: min(100% - 2rem, 22rem);
+	height: 600px;
+	border: 3px solid #ffffff;
+	border-radius: 1em;
+	position: relative;
+	overflow: hidden;
+}
+
+.phone .content {
+	width: 100%;
+	height: calc(100% - 3.75rem);
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 300ms ease;
+}
+
+.phone .content.show {
+	opacity: 1;
+}
+
+nav {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+nav ul {
+	list-style: none;
+	height: 3.75rem;
+	margin: 0;
+	padding: 0 1rem;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	cursor: pointer;
+	color: #777777;
+	text-align: center;
+	width: 100%;
+}
+
+nav p {
+	font-size: 0.7rem;
+	margin: 0.125rem;
+}
+
+nav li:hover,
+nav li.active {
+	color: #8e44ad;
+}
