@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	min-height: 100vh;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+}
+
+.background {
+	background: gray
+		url("https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+		no-repeat center center / cover;
+	position: absolute;
+	z-index: -1;
+
+	inset: -25px; /* For the edges of the image */
+	filter: blur(20px);
+}
