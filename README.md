@@ -42,7 +42,7 @@ The list of mini-projects are:
 - [Hoverboard](https://codepen.io/LeKoels27/pen/BaVYrYo)
 - [Pokedex](https://codepen.io/LeKoels27/pen/eYKMdao)
 - [Mobile Tab Navigation](https://codepen.io/LeKoels27/pen/wvXmZMW)
-- [Password Strength Background]()
+- [Password Strength Background](https://codepen.io/LeKoels27/pen/qBKYPQq)
 - [3d Background Boxes]()
 - [Verify Account UI]()
 - [Live User Filter]()
