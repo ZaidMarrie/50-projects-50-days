@@ -43,7 +43,7 @@ The list of mini-projects are:
 - [Pokedex](https://codepen.io/LeKoels27/pen/eYKMdao)
 - [Mobile Tab Navigation](https://codepen.io/LeKoels27/pen/wvXmZMW)
 - [Password Strength Background](https://codepen.io/LeKoels27/pen/qBKYPQq)
-- [3d Background Boxes]()
+- [3D Background Boxes](https://codepen.io/LeKoels27/pen/BaVPBxw)
 - [Verify Account UI]()
 - [Live User Filter]()
 - [Feedback UI Design]()
