@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	min-height: 100vh;
+	background-color: #fbfcfe;
+	display: grid;
+	place-items: center;
+}
+
+input {
+	font: inherit;
+	color: inherit;
+}
+
+.container {
+	width: min(100% - 2rem, 800px);
+	caret-color: transparent;
+	margin-inline: auto;
+	padding: 30px;
+	border-radius: 10px;
+	border: 3px solid #000000;
+	background-color: #ffffff;
+}
+
+.code-container {
+	margin: 2.5rem 0;
+	display: flex;
+	gap: 1%;
+	align-items: center;
+	justify-content: center;
+}
+
+.code {
+	font-size: 4rem;
+	text-align: center;
+	width: 5rem;
+	height: 6rem;
+	border-radius: 0.15em;
+	border: 2px solid #eeeeee;
+	-moz-appearance: textfield;
+}
+
+.code:valid {
+	border-color: #3498db;
+	box-shadow: 0 10px 10px -5px hsl(0 0% 0% / 0.25);
+}
+
+.code::-webkit-inner-spin-button,
+.code::-webkit-outer-spin-button {
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+.info {
+	font-size: 0.8rem;
+	color: #777777;
+	max-width: 28rem;
+	display: inline-block;
+}
+
+@media (max-width: 40em) {
+	.code {
+		font-size: 2rem;
+		height: 4.25rem;
+		max-width: 3.25rem;
+	}
+}
