@@ -44,7 +44,7 @@ The list of mini-projects are:
 - [Mobile Tab Navigation](https://codepen.io/LeKoels27/pen/wvXmZMW)
 - [Password Strength Background](https://codepen.io/LeKoels27/pen/qBKYPQq)
 - [3D Background Boxes](https://codepen.io/LeKoels27/pen/BaVPBxw)
-- [Verify Account UI]()
+- [Verify Account UI](https://codepen.io/LeKoels27/pen/gOKdmGq)
 - [Live User Filter]()
 - [Feedback UI Design]()
 - [Custom Range Slider]()
