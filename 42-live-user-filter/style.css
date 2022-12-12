@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	min-height: 100vh;
+	background-color: #f8f9fd;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+}
+
+.container {
+	width: 400px;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px hsl(0 0% 0% / 0.3);
+	overflow: hidden;
+}
+
+.header {
+	color: #ffffff;
+	padding: 1rem 1.25rem;
+	background-color: #3e57db;
+}
+
+.title {
+	margin: 0;
+}
+
+.subtitle {
+	display: inline-block;
+	margin-block: 0.25rem 1rem;
+}
+
+.header input {
+	color: inherit;
+	width: 100%;
+	padding: 0.75rem 1.25rem;
+	border: none;
+	border-radius: 50vmax;
+	background-color: hsl(0 0% 0% / 0.3);
+}
+
+.header input:focus {
+	outline: none;
+}
+
+.user-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-height: 400px;
+	background-color: #ffffff;
+	overflow-y: auto;
+}
+
+.user-list > * + * {
+	border-top: 1px solid lightgray;
+}
+
+.user-list li {
+	padding: 0.85rem 1.75rem;
+	display: flex;
+	gap: 0.75rem;
+	align-items: center;
+}
+
+.user-list li.hide {
+	display: none;
+}
+
+.user-list img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.user-info h4 {
+	margin: 0;
+}
+
+.user-info p {
+	margin-block: 0.25rem 0;
+}
