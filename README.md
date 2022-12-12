@@ -45,7 +45,7 @@ The list of mini-projects are:
 - [Password Strength Background](https://codepen.io/LeKoels27/pen/qBKYPQq)
 - [3D Background Boxes](https://codepen.io/LeKoels27/pen/BaVPBxw)
 - [Verify Account UI](https://codepen.io/LeKoels27/pen/gOKdmGq)
-- [Live User Filter]()
+- [Live User Filter](https://codepen.io/LeKoels27/pen/eYKaEPr)
 - [Feedback UI Design]()
 - [Custom Range Slider]()
 - [Netflix Mobile Navigation]()
