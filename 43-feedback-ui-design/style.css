@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #fef9f2;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.panel {
+	max-width: 25rem;
+	padding: 1.875rem;
+	border-radius: 0.25em;
+	background-color: #ffffff;
+	box-shadow: 0 0 0.625rem hsl(0 0% 0% / 0.3);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel strong {
+	line-height: 1.6;
+}
+
+.ratings {
+	margin-block: 1.25rem;
+	display: flex;
+	gap: 5px;
+}
+
+.rating {
+	cursor: pointer;
+	width: 100%;
+	padding: 1.25rem;
+	border-radius: 0.25em;
+}
+
+.rating:hover,
+.rating.active {
+	box-shadow: 0 0 0.625rem hsl(0 0% 0% / 0.2);
+}
+
+.rating img {
+	width: 2.5rem;
+	margin-inline: auto;
+}
+
+.rating small {
+	color: #555555;
+	margin-top: 0.625rem;
+	display: inline-block;
+}
+
+.rating.active small {
+	color: #111111;
+}
+
+.btn {
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.25em;
+	padding: 0.625rem 1.875rem;
+	background-color: #302d2b;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+.fa-heart {
+	font-size: 1.875rem;
+	color: #ff0000;
+	margin-bottom: 0.625rem;
+}
