@@ -47,7 +47,7 @@ The list of mini-projects are:
 - [Verify Account UI](https://codepen.io/LeKoels27/pen/gOKdmGq)
 - [Live User Filter](https://codepen.io/LeKoels27/pen/eYKaEPr)
 - [Feedback UI Design](https://codepen.io/LeKoels27/pen/XWYLOXY)
-- [Custom Range Slider]()
+- [Custom Range Slider](https://codepen.io/LeKoels27/pen/XWYLOjB)
 - [Netflix Mobile Navigation]()
 - [Quiz App]()
 - [Testimonial Box Switcher]()
