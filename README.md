@@ -48,7 +48,7 @@ The list of mini-projects are:
 - [Live User Filter](https://codepen.io/LeKoels27/pen/eYKaEPr)
 - [Feedback UI Design](https://codepen.io/LeKoels27/pen/XWYLOXY)
 - [Custom Range Slider](https://codepen.io/LeKoels27/pen/XWYLOjB)
-- [Netflix Mobile Navigation]()
+- [Netflix Mobile Navigation](https://codepen.io/LeKoels27/pen/bGjpEow)
 - [Quiz App]()
 - [Testimonial Box Switcher]()
 - [Random Image Feed]()
