@@ -49,7 +49,7 @@ The list of mini-projects are:
 - [Feedback UI Design](https://codepen.io/LeKoels27/pen/XWYLOXY)
 - [Custom Range Slider](https://codepen.io/LeKoels27/pen/XWYLOjB)
 - [Netflix Mobile Navigation](https://codepen.io/LeKoels27/pen/bGjpEow)
-- [Quiz App]()
+- [Quiz App](https://codepen.io/LeKoels27/pen/abjNGLK)
 - [Testimonial Box Switcher]()
 - [Random Image Feed]()
 - [Todo List]()
