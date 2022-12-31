@@ -51,6 +51,6 @@ The list of mini-projects are:
 - [Netflix Mobile Navigation](https://codepen.io/LeKoels27/pen/bGjpEow)
 - [Quiz App](https://codepen.io/LeKoels27/pen/abjNGLK)
 - [Testimonial Box Switcher](https://codepen.io/LeKoels27/pen/PoBNrze)
-- [Random Image Feed]()
+- [Random Image Feed](https://codepen.io/LeKoels27/pen/jOpqjrJ)
 - [Todo List]()
 - [Insect Catch Game]()
