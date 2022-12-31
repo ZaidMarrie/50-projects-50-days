@@ -52,5 +52,5 @@ The list of mini-projects are:
 - [Quiz App](https://codepen.io/LeKoels27/pen/abjNGLK)
 - [Testimonial Box Switcher](https://codepen.io/LeKoels27/pen/PoBNrze)
 - [Random Image Feed](https://codepen.io/LeKoels27/pen/jOpqjrJ)
-- [Todo List]()
+- [Todo List](https://codepen.io/LeKoels27/pen/ExpKBgK)
 - [Insect Catch Game]()
