@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P:wght@400;700&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Press Start 2P", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #516dff;
+	overflow: hidden;
+}
+
+h1,
+h3 {
+	line-height: 1.2;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	cursor: pointer;
+	font: inherit;
+}
+
+.screen {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: margin 250ms ease-in-out;
+}
+
+.screen.up {
+	margin-top: -100vh;
+}
+
+.btn {
+	color: #516dff;
+	padding: 0.9375rem 1.25rem;
+	border: none;
+	background-color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus {
+	opacity: 0.75;
+}
+
+.insects-list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	gap: 0.625rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.choose-insect-btn {
+	color: #ffffff;
+	width: 9.375rem;
+	aspect-ratio: 1;
+	padding: 1rem;
+	border: 2px solid #ffffff;
+	background-color: transparent;
+}
+
+.choose-insect-btn:hover {
+	color: #516dff;
+	background-color: #ffffff;
+}
+
+.choose-insect-btn img {
+	width: 6.15rem;
+	aspect-ratio: 1;
+	object-fit: contain;
+}
+
+.game-container {
+	position: relative;
+}
+
+.time,
+.score {
+	position: absolute;
+	top: 1.25rem;
+}
+
+.time {
+	left: 1.25rem;
+}
+
+.score {
+	right: 1.25rem;
+}
+
+.message {
+	line-height: 1.6;
+	width: 100%;
+	padding: 1.25rem;
+	background-color: hsl(0 0% 0% / 0.5);
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	transform: translateY(-150%);
+	transition: transform 400ms ease-in;
+}
+
+.message.visible {
+	opacity: 1;
+	transform: translateY(150%);
+}
+
+.insect {
+	cursor: pointer;
+	width: 6.25rem;
+	aspect-ratio: 1;
+	display: grid;
+	place-items: center;
+	position: absolute;
+	transform: translate(-50%, -50%) scale(1);
+	transition: transform 300ms ease-out;
+}
+
+.insect.caught {
+	transform: translate(-50%, -50%) scale(0);
+}
+
+@media (max-width: 28em) {
+	.insect {
+		width: 4rem;
+	}
+}
